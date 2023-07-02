@@ -1,0 +1,14 @@
+export { ReactComponent as CommentSVG } from './svg/Activity/Comment.svg';
+export { ReactComponent as EyeSVG } from './svg/Activity/Eye.svg';
+export { ReactComponent as ChevronDownSVG } from './svg/Activity/ChevronDown.svg';
+export { ReactComponent as TimeSVG } from './svg/Activity/Time.svg';
+export { ReactComponent as TelegramLogoSVG } from './svg/Activity/TelegramLogo.svg';
+export { ReactComponent as TwitterLogoSVG } from './svg/Activity/TwitterLogo.svg';
+export { ReactComponent as PersonSVG } from './svg/Activity/Person.svg';
+export { ReactComponent as FinanceSVG } from './svg/Activity/Finance.svg';
+export { ReactComponent as SchemeSVG } from './svg/Activity/Scheme.svg';
+export { ReactComponent as PeopleSVG } from './svg/Activity/People.svg';
+export { ReactComponent as ChevronDownProfSVG } from './svg/Activity/ChevronDownProf.svg';
+export { ReactComponent as BottomLineSVG } from './svg/Activity/BottomLine.svg';
+export { ReactComponent as CalendarSVG } from './svg/Activity/Calendar.svg';
+export { ReactComponent as SettingsSVG } from './svg/Activity/Settings.svg';
