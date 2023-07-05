@@ -4,15 +4,15 @@ import { Outlet } from "react-router-dom";
 import { updateTime } from "../../stores/storeTime";
 
 const Main = () => {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-    dispatch(updateTime(new Date().getTime()));
+  dispatch(updateTime(new Date().getTime()));
 
-    return(
-        <div className="Main">
-            <Outlet />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Outlet />
+    </div>
+  );
+};
 
-export default Main
+export default Main;

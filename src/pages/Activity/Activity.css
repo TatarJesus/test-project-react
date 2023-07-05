@@ -1,4 +1,4 @@
-.content_page {
+.content-page {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -11,7 +11,7 @@
     top: 136px;
 }
 
-.content_1 {
+.content-1 {
     width: 1080px;
     height: 672px;
     background: #FFFFFF;
@@ -22,7 +22,7 @@
 
 }
 
-.content_1_wrapper {
+.content-1-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -35,7 +35,7 @@
     top: 56px;
 }
 
-.content_1 img {
+.content-1 img {
     width: 1016px;
     height: 424px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(abstract-purple-digital-art-retrowave-wallpaper.jpg);
@@ -44,7 +44,7 @@
     flex-grow: 0;
 }
 
-.comment_author {
+.comment-author {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,7 +66,7 @@
     flex-grow: 0;
 }
 
-.comment_shadow {
+.comment-shadow {
     position: absolute;
     width: 2px;
     height: 63px;
@@ -75,7 +75,7 @@
     background: #D3D8DE;
 }
 
-.comment_text {
+.comment-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,7 +88,7 @@
     top: 0px;
 }
 
-.comment_text p {
+.comment-text p {
     width: 1006px;
     height: 32px;
     font-family: 'Roboto';
@@ -103,7 +103,7 @@
     flex-grow: 0;
 }
 
-.comment_text span {
+.comment-text span {
     height: 16px;
     font-family: 'Roboto';
     font-style: normal;
@@ -116,7 +116,7 @@
     flex-grow: 0;
 }
 
-.comment_reaction {
+.comment-reaction {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -155,7 +155,7 @@
     flex-grow: 0;
 }
 
-.content_other {
+.content-other {
     width: 1080px;
     height: 56px;
     background: #FFFFFF;
@@ -181,7 +181,7 @@
     color: #505050;
 }
 
-.other_date {
+.other-date {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -194,7 +194,7 @@
     top: 16px;
 }
 
-.other_date div {
+.other-date div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -207,7 +207,7 @@
     flex-grow: 0;
 }
 
-.info_user {
+.info-user {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,14 +222,14 @@
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
-.img_user {
+.img-user {
     width: 132px;
     height: 132px;
     flex: none;
     order: 0;
     flex-grow: 0;
     border-radius: 50%;
-    background: url(../../../assets/img/eh8U7PHA4jU.jpg);
+    background: url(../../assets/img/eh8U7PHA4jU.jpg);
     background-size: cover;
 }
 
@@ -241,10 +241,10 @@
     bottom: -50.76%;
     max-width: 100%;
     max-height: 100%;
-    background: url(../../../assets/img/eh8U7PHA4jU.jpg);
+    background: url(../../assets/img/eh8U7PHA4jU.jpg);
 }
 
-.about_user {
+.about-user {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,7 +282,7 @@
     flex-grow: 0;
 }
 
-.social_user {
+.social-user {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -295,7 +295,7 @@
     flex-grow: 0;
 }
 
-.navigation_user_block {
+.navigation-user-block {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -310,7 +310,7 @@
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
-.navigation_user_block_wrapper {
+.navigation-user-block-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -323,7 +323,7 @@
     flex-grow: 0;
 }
 
-.nav_header {
+.nav-header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -336,7 +336,7 @@
     flex-grow: 0;
 }
 
-.nav_header_wrapper {
+.nav-header-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -349,7 +349,7 @@
     flex-grow: 0;
 }
 
-.nav_header_wrapper div {
+.nav-header-wrapper div {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -363,7 +363,7 @@
     flex-grow: 0;
 }
 
-.nav_header_wrapper span {
+.nav-header-wrapper span {
     text-align: start;
     width: 204px;
     height: 20px;
@@ -379,7 +379,7 @@
     flex-grow: 1;
 }
 
-.main_buts {
+.main-buts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -393,7 +393,7 @@
     flex-grow: 0;
 }
 
-.main_buts_elem {
+.main-buts-elem {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -407,7 +407,7 @@
     position: relative;
 }
 
-#nav_txt {
+#nav-txt {
     height: 16px;
     font-family: 'Roboto';
     font-style: normal;
@@ -488,7 +488,7 @@
     flex-grow: 0;
 }
 
-.other_buts {
+.other-buts {
     margin-top: 17px;
     display: flex;
     flex-direction: column;
@@ -503,7 +503,7 @@
     flex-grow: 0;
 }
 
-.other_buts_elem {
+.other-buts-elem {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -536,7 +536,7 @@
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
-.share_wrapper {
+.share-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -550,7 +550,7 @@
     flex-grow: 0;
 }
 
-.heading_share {
+.heading-share {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -563,7 +563,7 @@
     flex-grow: 0;
 }
 
-.heading_share_wrapper {
+.heading-share-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -576,7 +576,7 @@
     flex-grow: 0;
 }
 
-.heading_share_wrapper div {
+.heading-share-wrapper div {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -590,7 +590,7 @@
     flex-grow: 0;
 }
 
-.heading_share_wrapper span {
+.heading-share-wrapper span {
     width: 204px;
     height: 20px;
     font-family: 'Roboto';
@@ -606,7 +606,7 @@
     flex-grow: 1;
 }
 
-.share_text {
+.share-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -620,7 +620,7 @@
     flex-grow: 0;
 }
 
-.share_text textarea {
+.share-text textarea {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -637,7 +637,7 @@
     flex-grow: 0;
 }
 
-.but_share {
+.but-share {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -651,7 +651,7 @@
     flex-grow: 0;
 }
 
-.but_share button {
+.but-share button {
     display: flex;
     flex-direction: row;
     justify-content: center;
