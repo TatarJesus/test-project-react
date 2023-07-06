@@ -7,14 +7,14 @@ import {
 export const elementsHeader = [
   {
     name: "Statistics",
-    svg: <StatisticsSVG />,
+    svg: StatisticsSVG,
   },
   {
     name: "Invoices",
-    svg: <CalculateSVG />,
+    svg: CalculateSVG,
   },
   {
     name: "Schedule",
-    svg: <ScheduleSVG />,
+    svg: ScheduleSVG,
   },
 ];

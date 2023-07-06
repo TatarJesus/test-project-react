@@ -18,7 +18,7 @@ export const Time = () => {
     let now = new Date().getTime();
     let sec = Math.floor((now - time.date) / 1000);
     let hhmmss = new Date(sec * 1000).toISOString().substr(11, 8);
-    setCurTime(hhmmss.indexOf("00:") === 0 ? hhmmss.substr(0) : hhmmss);
+    setCurTime(hhmmss);
   };
 
   const zeroTime = () => {

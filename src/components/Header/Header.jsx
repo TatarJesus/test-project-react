@@ -16,7 +16,7 @@ const Header = () => {
       <div className="navigation">
         {elementsHeader.map((element) => (
           <div key={element.name} className="navigation-elem">
-            {element.svg}
+            <element.svg />
             <span>{element.name}</span>
           </div>
         ))}

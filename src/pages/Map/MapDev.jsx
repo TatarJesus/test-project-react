@@ -1,16 +1,26 @@
-import { YMaps, Map } from "@pbe/react-yandex-maps";
+import { useEffect, useRef } from "react";
+import { useYMaps } from "@pbe/react-yandex-maps";
+
+import Loader from "../../components/Loader/Loader";
 
 import "./MapDev.css";
 
 import { ChevronDownSVG, CloseSVG, UpdateSVG } from "../../assets/indexMapTime";
-import { useEffect, useState } from "react";
 
 export const MapDev = () => {
-  const [visPreloader, setVisPreloader] = useState(true);
+  const mapRef = useRef(null);
+  const ymaps = useYMaps(["Map"]);
 
   useEffect(() => {
-    setVisPreloader(false);
-  }, []);
+    if (!ymaps || !mapRef.current) {
+      return;
+    }
+
+    new ymaps.Map(mapRef.current, {
+      center: [55.76, 37.64],
+      zoom: 9,
+    });
+  }, [ymaps]);
 
   return (
     <div className="map-block">
@@ -24,16 +34,10 @@ export const MapDev = () => {
           </div>
         </div>
         <div id="map" className="map-g">
-          {visPreloader ? (
-            <div className="loader">loading</div>
+          {ymaps ? (
+            <div ref={mapRef} style={{ width: "1312px", height: "480px" }} />
           ) : (
-            <YMaps>
-              <Map
-                defaultState={{ center: [55.75, 37.57], zoom: 9 }}
-                width="1312px"
-                height="480px"
-              />
-            </YMaps>
+            <Loader />
           )}
         </div>
       </div>

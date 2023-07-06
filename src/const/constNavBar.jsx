@@ -8,18 +8,18 @@ import {
 export const elementsNavBar = [
   {
     name: "Notes",
-    svg: <NotesSVG />,
+    svg: NotesSVG,
   },
   {
     name: "Friends",
-    svg: <FriendsSVG />,
+    svg: FriendsSVG,
   },
   {
     name: "Photos",
-    svg: <PhotosSVG />,
+    svg: PhotosSVG,
   },
   {
     name: "Settings",
-    svg: <SettingsSVG />,
+    svg: SettingsSVG,
   },
 ];

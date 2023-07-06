@@ -15,7 +15,7 @@ const NavBar = () => {
             to={route.path}
             className={`left-buts-elem ${route.name.toLowerCase()}`}
           >
-            {route.svg}
+            <route.svg />
             <span>{route.name}</span>
           </Link>
         ))}
@@ -26,7 +26,7 @@ const NavBar = () => {
             key={element.name}
             className={`right-buts-elem ${element.name.toLowerCase()}`}
           >
-            {element.svg}
+            <element.svg />
             <span>{element.name}</span>
           </div>
         ))}
