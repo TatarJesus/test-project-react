@@ -1,0 +1,94 @@
+.nav-bar {
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    left: 0px;
+    top: 64px;
+    background: #FAFAFA;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.left-buts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 286px;
+    height: 40px;
+    left: 32px;
+    top: 0px;
+}
+
+.left-buts-elem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left-buts-elem:hover {
+    cursor: pointer;
+}
+
+.active {
+    background: #F1F1F1;
+}
+
+.activity {
+    width: 106px;
+}
+
+.map {
+    width: 88px;
+}
+
+.time {
+    width: 92px;
+}
+
+.right-buts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 378px;
+    height: 40px;
+    right: 32px;
+    top: 0px;
+}
+
+.right-buts-elem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.notes {
+    width: 98px;
+}
+
+.friends {
+    width: 107px;
+}
+
+.photos {
+    width: 105px;
+}
+
+.settings {
+    padding: 0px 8px;
+    width: 68px;
+}
